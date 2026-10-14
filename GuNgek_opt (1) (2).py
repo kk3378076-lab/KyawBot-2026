@@ -132,7 +132,7 @@ SID_TTL = 120              # seconds a sessionId stays in the pool before it is 
 DIRECT = 'direct'          # sentinel: use the sandbox IP directly (no proxy)
 DIRECT_SLOTS = 10          # how many direct-connection slots to add to the pool
 ADMIN_IDS = [8511509070]
-BOT_TOKEN = '8887452157:AAGWRsB7pgZszp67TRo9A4IbWnlb4pVPr-w'
+BOT_TOKEN = '8608666201:AAGZ5LC_14_9vVUiC0d6KTkx_auUFEzNGe0'
 PORTAL_URL_PATH = 'portal_url_'
 PROXY_FILE = 'proxies.txt'
 
