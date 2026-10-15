@@ -104,11 +104,12 @@ def check_approval():
         print(bred + '[!] Cannot reach license server. Running in OFFLINE mode.' + reset)
         return
 
-    my_key = get_system_key()
-    lines = response.text.strip().split('\n')
-    for line in lines:
-        parts = line.split(',')
-        if len(parts) < 2:
+   return   
+ # my_key = get_system_key()
+   # lines = response.text.strip().split('\n')
+    #for line in lines:
+        #parts = line.split(',')
+        #if len(parts) < 2:
             continue
         if parts[0].strip().strip('"').strip("'") == my_key:
             expiry_str = parts[1].strip().strip('"').strip("'")
