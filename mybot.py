@@ -18,10 +18,10 @@ from telegram.ext import Application, CommandHandler, CallbackQueryHandler, Mess
 from telegram.constants import ParseMode
 from aiohttp_socks import ProxyConnector, ProxyType
 
-GITHUB_OWNER = 'GuNge2008'
+GITHUB_OWNER = 'kk3378076_lab
 GITHUB_REPO = 'KEY'
 FILE_PATH = 'key.txt'
-GITHUB_TOKEN = '******'
+GITHUB_TOKEN = os.getenv('********')
 LAST_RUN_FILE = 'last_run.txt'
 
 bcyan = '\x1b[1;36m'
@@ -132,7 +132,7 @@ SID_TTL = 120              # seconds a sessionId stays in the pool before it is 
 DIRECT = 'direct'          # sentinel: use the sandbox IP directly (no proxy)
 DIRECT_SLOTS = 10          # how many direct-connection slots to add to the pool
 ADMIN_IDS = [8181084923]
-BOT_TOKEN = '8608666201:AAGZ5LC_14_9vVUiC0d6KTkx_auUFEzNGe0'
+BOT_TOKEN =os.getenv('8608666201:AAFPfwWz-PEVyQs6QsXXlqeGWdKc7NAhutA')
 PORTAL_URL_PATH = 'portal_url_'
 PROXY_FILE = 'proxies.txt'
 
