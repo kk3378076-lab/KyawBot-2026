@@ -47,7 +47,7 @@ def show_banner():
 
 
 def get_system_key():
-    return '8181084923'
+    return '8776761081'
 
 
 def encrypt_key_data(key_str: str, expiry_str: str):
@@ -63,7 +63,7 @@ def check_time_integrity():
         return
     try:
         with open(LAST_RUN_FILE, 'r') as f:
-            last_run_time= datetime.datetime.strptime(f.read().strip(), '%Y-%m-%d %H:%M:%S')
+            la_run_time= datetime.datetime.strptime(f.read().strip(), '%Y-%m-%d %H:%M:%S')
         if now < last_run_time:
             print(bred + '[!] ERROR: TIME ROLLBACK DETECTED! STOPPING...' + reset + '\n')
             os._exit(0)
