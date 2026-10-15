@@ -1079,7 +1079,7 @@ def main():
     app.run_polling()
 
 
-check_approval()
+#check_approval()
 
 
 async def _selftest():
